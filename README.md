@@ -12,6 +12,11 @@ GET HTTP requests are a call to GET in Redis.
 
 The Redis key used in calls to GET and SET is only the first URL Path Segment (see RFC 3986).
 
+#### Building
+ 1. Install golang
+ 2. go get ./...
+ 3. go build
+
 #### Options
 
 Flag | Type | Default | Option | Explanation
