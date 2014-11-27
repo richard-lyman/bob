@@ -6,7 +6,7 @@ Binary ~~Large~~ OBject store
 
 A micro REST interface to Redis (that can't get smaller).
 
-POST HTTP requests are a call to SET in Redis.
+POST HTTP requests are a call to SET in Redis using the POSTed body as the content.
 
 GET HTTP requests are a call to GET in Redis.
 
