@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+// bob is a Binary OBject store REST wrapper around the GET and SET(NX) commands in Redis.
 package main
 
 import (
