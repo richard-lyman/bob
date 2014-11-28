@@ -33,13 +33,13 @@ redisHostPort | string | "127.0.0.1:6379" | The host:port for Redis |(Self expla
 ```
  1. Store content
 ```bash
-curl -v -X POST --data-binary "@locationOfSomeFile" :::8080/someKey
+curl -v -X POST --data-binary "@locationOfSomeFile" :::8081/someKey
 ```
  1. Get content
 ```bash
-curl -v :::8080/someKey
+curl -v :::8081/someKey
 ```
  1. Fail to modify content
 ```bash
-curl -v -X POST --data-binary "@locationOfSomeFile" :::8080/someKey
+curl -v -X POST --data-binary "@locationOfSomeFile" :::8081/someKey
 ```
