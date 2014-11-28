@@ -1,3 +1,5 @@
+[![GoDoc](https://godoc.org/github.com/richard-lyman/bob?status.svg)](https://godoc.org/github.com/richard-lyman/bob)
+
 #### Acronym
 
 Binary ~~Large~~ OBject store
