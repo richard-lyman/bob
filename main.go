@@ -75,7 +75,7 @@ func get(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusInternalServerError)
 	} else {
 		if b, err := response.Bytes(); err != nil {
-      log.Printf("Unable to convert redis response to bytes for GET on version '%s': %s\n", v, err)
+			log.Printf("Unable to convert redis response to bytes for GET on version '%s': %s\n", v, err)
 			w.WriteHeader(http.StatusInternalServerError)
 		} else {
 			fmt.Fprint(w, b)
