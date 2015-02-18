@@ -1,5 +1,5 @@
 [![GoDoc](https://godoc.org/github.com/richard-lyman/bob?status.svg)](https://godoc.org/github.com/richard-lyman/bob)
-[![Gobuild Download](http://gobuild.io/badge/github.com/richard-lyman/bob/downloads.svg)](http://gobuild.io/github.com/richard-lyman/bob)
+<!-- [![Gobuild Download](http://gobuild.io/badge/github.com/richard-lyman/bob/downloads.svg)](http://gobuild.io/github.com/richard-lyman/bob) -->
 
 #### Acronym
 
