@@ -34,15 +34,15 @@ redisHostPort | string | "127.0.0.1:6379" | The host:port for Redis |(Self expla
 ```bash
 ./bob -lockVersions=true -hostPort ":8081"
 ```
- 1. Store content
+ 2. Store content
 ```bash
 curl -v -X POST --data-binary "@locationOfSomeFile" :::8081/someKey
 ```
- 1. Get content
+ 3. Get content
 ```bash
 curl -v :::8081/someKey
 ```
- 1. Fail to modify content
+ 4. Fail to modify content
 ```bash
 curl -v -X POST --data-binary "@locationOfSomeFile" :::8081/someKey
 ```
