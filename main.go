@@ -27,7 +27,6 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"github.com/fzzy/radix/extra/pool"
 	"github.com/fzzy/radix/redis"
 	"github.com/gorilla/mux"
